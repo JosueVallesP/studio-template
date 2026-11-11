@@ -1,0 +1,1 @@
+{"hook": "guard-writes", "expect": "allow", "tool_name": "Write", "tool_input": {"file_path": "canon/person/povs.md", "content": "x"}}

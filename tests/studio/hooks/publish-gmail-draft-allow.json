@@ -1,0 +1,1 @@
+{"hook": "guard-publish", "expect": "allow", "tool_name": "mcp__Gmail__create_draft", "tool_input": {}}

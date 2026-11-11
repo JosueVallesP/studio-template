@@ -1,0 +1,1 @@
+{"hook": "guard-bash", "expect": "deny", "agent_type": "judge", "agent_id": "a1", "tool_name": "Bash", "tool_input": {"command": "python3 scripts/voiceprint.py score pieces/x/draft-v1.md --log=canon/x.jsonl"}}

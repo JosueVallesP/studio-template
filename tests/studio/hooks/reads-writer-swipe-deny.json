@@ -1,0 +1,1 @@
+{"hook": "guard-reads", "expect": "deny", "agent_type": "writer", "agent_id": "a1", "tool_name": "Read", "tool_input": {"file_path": "bank/swipe/W1.md"}}

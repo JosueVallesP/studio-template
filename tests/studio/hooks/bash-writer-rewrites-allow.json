@@ -1,0 +1,1 @@
+{"hook": "guard-bash", "expect": "allow", "agent_type": "writer", "agent_id": "a1", "tool_name": "Bash", "tool_input": {"command": "python3 scripts/rewrites.py pick --format fmt-linkedin-post"}}

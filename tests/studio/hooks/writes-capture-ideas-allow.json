@@ -1,0 +1,1 @@
+{"hook": "guard-writes", "expect": "allow", "agent_type": "capture", "agent_id": "a1", "tool_name": "Edit", "tool_input": {"file_path": "bank/ideas.md", "old_string": "a", "new_string": "b"}}

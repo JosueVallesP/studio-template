@@ -1,0 +1,28 @@
+# Creative Director workspace config
+# This file marks the folder as a workspace. Every key is optional.
+
+# Folder (relative to the workspace) where brand folders live.
+brands_root: brands
+
+# Who signs off on direction, system changes and canon. Used in log lines.
+studio_owner: ""            # cd-intake asks for this when it creates the workspace
+
+# Extra rule packs to load after the plugin's rules and this workspace's taste/rules/.
+# Each entry is a folder path, relative to the workspace or absolute.
+packs: []
+
+# Spend above this amount (in US dollars) on one Recraft or Flora batch needs a yes.
+credit_confirm_usd: 5
+
+# Tools available in this studio. cd-make only picks from these.
+hands:
+  - claude-design
+  - figma
+  - recraft
+  - flora
+  - paper
+  - code-diagrams
+
+# Where the visual brief comes from by default: "content-system" when another system
+# writes visual-brief.md into the piece folder, "cd-make" when cd-make writes it with you.
+visual_brief_source: cd-make

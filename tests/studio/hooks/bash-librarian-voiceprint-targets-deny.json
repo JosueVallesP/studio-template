@@ -1,0 +1,1 @@
+{"hook": "guard-bash", "expect": "deny", "agent_type": "librarian", "agent_id": "a1", "tool_name": "Bash", "tool_input": {"command": "python3 scripts/voiceprint.py build --targets ../elsewhere.md"}}

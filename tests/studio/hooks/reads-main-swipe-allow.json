@@ -1,0 +1,1 @@
+{"hook": "guard-reads", "expect": "allow", "tool_name": "Read", "tool_input": {"file_path": "bank/swipe/W1.md"}}

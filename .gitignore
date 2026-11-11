@@ -1,0 +1,48 @@
+# Secrets and credentials. config/tools.md holds IDs, never keys.
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials/
+
+# Built skill zips
+dist/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Python caches the scripts leave behind
+__pycache__/
+*.pyc
+
+# The guards' once-per-session marker for a subagent call with no agent_type
+.claude/.guard-noted
+
+# The reply check's note for the next turn (house rules)
+.claude/.reply-check.json
+
+# The save's note for the next session when the last save didn't reach GitHub (scripts/save.sh)
+.claude/.save-failed
+
+# A dashboard sync that failed, for the next session to report (.claude/hooks/on-stop.sh)
+.claude/.sync-failed-*
+
+# Audio and video in the inbox: inbox-to-text.py turns them into text, and the text is what's kept.
+# GitHub refuses files over 100 MB, and one such file would block every later save. The brackets
+# match upper and lower case (a phone often names a video .MOV).
+inbox/**/*.[mM][pP]3
+inbox/**/*.[mM]4[aA]
+inbox/**/*.[wW][aA][vV]
+inbox/**/*.[aA][aA][cC]
+inbox/**/*.[oO][gG][gG]
+inbox/**/*.[fF][lL][aA][cC]
+inbox/**/*.[mM][pP]4
+inbox/**/*.[mM][oO][vV]
+inbox/**/*.[mM]4[vV]
+inbox/**/*.[wW][eE][bB][mM]
+inbox/**/*.[mM][kK][vV]
+inbox/**/*.[aA][vV][iI]

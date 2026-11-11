@@ -1,0 +1,1 @@
+{"hook": "guard-reads", "expect": "allow", "agent_type": "writer", "agent_id": "a1", "tool_name": "Grep", "tool_input": {"pattern": "bank/swipe/", "path": "skills"}}

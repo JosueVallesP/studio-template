@@ -1,0 +1,214 @@
+---
+type: wiki-entry
+kind: "close"
+title: "The restated principle"
+posts: 143
+---
+
+# The restated principle
+
+A close. Back to the [[wiki|library wiki]].
+
+## The card
+
+The full card lives in `body-moves.md` under the heading "C1. The restated principle". Obsidian shows it below. Agents should read it there.
+
+![[linkedin/library/body-moves#C1. The restated principle]]
+
+## Briefs whose example posts use it
+
+- [[a-known-persons-odd-decision|A known person's odd decision]] (8 of its 17 posts)
+- [[a-belief-your-experience-contradicts|A belief your experience contradicts]] (7 of its 14 posts)
+- [[fix-a-word|Fix a word your field misuses]] (7 of its 8 posts)
+- [[a-bet-on-the-future|A bet on the future]] (6 of its 8 posts)
+- [[one-line-that-changed-your-work|One line that changed your work]] (6 of its 7 posts)
+- [[a-rule-you-keep|A rule you keep]] (5 of its 5 posts)
+- [[lessons-from-your-years|What your years taught you]] (4 of its 15 posts)
+- [[the-exact-way-you-do-it|The exact way you do one thing]] (4 of its 14 posts)
+- [[a-masters-principles|A master's principles, distilled]] (4 of its 16 posts)
+- [[someone-worth-knowing|Someone worth knowing]] (4 of its 8 posts)
+- [[the-real-cause|The real cause of a common complaint]] (4 of its 5 posts)
+- [[this-weeks-news-through-your-lens|This week's news through your lens]] (4 of its 8 posts)
+- [[how-you-got-in-the-room|How you got in the room]] (4 of its 5 posts)
+- [[a-story-that-carries-a-value|A story that carries a value]] (4 of its 10 posts)
+- [[we-do-it-differently|We do it differently]] (3 of its 4 posts)
+- [[you-asked-or-measured|You asked or measured]] (3 of its 6 posts)
+- [[what-used-to-win|What used to win and doesn't now]] (3 of its 4 posts)
+- [[how-you-got-here|How you got here, year by year]] (3 of its 5 posts)
+- [[the-shortcut-and-its-cost|The shortcut and its cost]] (3 of its 3 posts)
+- [[a-change-and-what-to-do|A change, and what to do about it]] (3 of its 6 posts)
+- [[speak-for-your-profession|Speak for your profession]] (3 of its 8 posts)
+- [[notes-from-someone-ahead|Notes from someone ahead of you]] (3 of its 8 posts)
+- [[what-they-have-in-common|What they have in common]] (3 of its 4 posts)
+- [[one-small-fix|One small fix for today]] (3 of its 7 posts)
+- [[what-your-reader-needs-to-hear|What your reader needs to hear]] (3 of its 5 posts)
+- [[the-mistake-you-keep-seeing|The mistake you keep seeing]] (3 of its 6 posts)
+- [[an-old-document-that-still-holds|An old document that still holds]] (2 of its 6 posts)
+- [[what-they-said-to-you|What they said to you]] (2 of its 3 posts)
+- [[how-it-really-is|How it really is]] (2 of its 5 posts)
+- [[one-idea-in-one-line|One idea in one line]] (2 of its 8 posts)
+- [[your-worst-stretch|Your worst stretch and what it built]] (2 of its 4 posts)
+- [[what-you-got-wrong|What you got wrong for years]] (2 of its 4 posts)
+- [[outside-evidence|Outside evidence for what you've been saying]] (2 of its 9 posts)
+- [[this-week-at-work|This week at work]] (2 of its 3 posts)
+- [[the-question-you-get-most|The question you get most]] (2 of its 3 posts)
+- [[a-small-scene|A small scene from outside work]] (2 of its 6 posts)
+- [[a-decision-that-made-no-sense|A decision that made no sense on paper]] (2 of its 3 posts)
+- [[the-practice-your-field-dropped|The practice your field dropped]] (2 of its 4 posts)
+- [[the-gripe|The gripe]] (2 of its 6 posts)
+- [[you-tried-it|You tried it]] (1 of its 4 posts)
+- [[criticize-your-own-industry|Criticize your own industry]] (1 of its 3 posts)
+- [[mock-the-pose|Mock a pose your field keeps striking]] (1 of its 5 posts)
+- [[open-the-hood|Open the hood on your setup]] (1 of its 6 posts)
+- [[stepping-away|Stepping away from what everyone uses]] (1 of its 4 posts)
+- [[someone-should-build-this|Someone should build this]] (1 of its 4 posts)
+- [[your-own-model|Your own model of how something works]] (1 of its 5 posts)
+- [[work-you-admire|Work you admire, taken apart]] (1 of its 5 posts)
+- [[two-kinds|Two kinds, and how to tell them apart]] (1 of its 4 posts)
+- [[you-got-what-everyone-wants|You got what everyone wants]] (1 of its 2 posts)
+
+## Posts that use it (143)
+
+- [[L008]] (12,258 engagements). Brief: [[you-tried-it|You tried it]].
+- [[L042]] (6,880 engagements). Brief: [[we-do-it-differently|We do it differently]].
+- [[L189]] (6,487 engagements). Brief: [[a-known-persons-odd-decision|A known person's odd decision]].
+- [[L214]] (4,771 engagements). Brief: [[an-old-document-that-still-holds|An old document that still holds]].
+- [[L063]] (4,222 engagements). Brief: [[criticize-your-own-industry|Criticize your own industry]].
+- [[L193]] (3,469 engagements). Brief: [[we-do-it-differently|We do it differently]].
+- [[L015]] (2,903 engagements). Brief: [[mock-the-pose|Mock a pose your field keeps striking]].
+- [[L181]] (2,726 engagements). Brief: [[what-they-said-to-you|What they said to you]].
+- [[L129]] (2,395 engagements). Brief: [[you-asked-or-measured|You asked or measured]].
+- [[L191]] (2,135 engagements). Brief: [[lessons-from-your-years|What your years taught you]].
+- [[L163]] (2,052 engagements). Brief: [[a-belief-your-experience-contradicts|A belief your experience contradicts]].
+- [[L143]] (2,018 engagements). Brief: [[a-rule-you-keep|A rule you keep]].
+- [[L001]] (1,956 engagements). Brief: [[what-used-to-win|What used to win and doesn't now]].
+- [[L107]] (1,887 engagements). Brief: [[how-it-really-is|How it really is]].
+- [[L076]] (1,778 engagements). Brief: [[how-you-got-here|How you got here, year by year]].
+- [[L219]] (1,665 engagements). Brief: [[a-known-persons-odd-decision|A known person's odd decision]].
+- [[L058]] (1,652 engagements). Brief: [[the-shortcut-and-its-cost|The shortcut and its cost]].
+- [[L184]] (1,649 engagements). Brief: [[what-they-said-to-you|What they said to you]].
+- [[L014]] (1,557 engagements). Brief: [[the-exact-way-you-do-it|The exact way you do one thing]].
+- [[L167]] (1,548 engagements). Brief: [[a-belief-your-experience-contradicts|A belief your experience contradicts]].
+- [[L205]] (1,380 engagements). Brief: [[a-change-and-what-to-do|A change, and what to do about it]].
+- [[L103]] (1,274 engagements). Brief: [[a-known-persons-odd-decision|A known person's odd decision]].
+- [[L127]] (1,272 engagements). Brief: [[speak-for-your-profession|Speak for your profession]].
+- [[L218]] (1,237 engagements). Brief: [[a-masters-principles|A master's principles, distilled]].
+- [[L179]] (1,212 engagements). Brief: [[how-you-got-here|How you got here, year by year]].
+- [[L183]] (1,188 engagements). Brief: [[someone-worth-knowing|Someone worth knowing]].
+- [[L112]] (1,102 engagements). Brief: [[fix-a-word|Fix a word your field misuses]].
+- [[L246]] (1,100 engagements). Brief: [[one-idea-in-one-line|One idea in one line]].
+- [[L187]] (1,079 engagements). Brief: [[a-known-persons-odd-decision|A known person's odd decision]].
+- [[L016]] (1,054 engagements). Brief: [[your-worst-stretch|Your worst stretch and what it built]].
+- [[L148]] (1,043 engagements). Brief: [[the-exact-way-you-do-it|The exact way you do one thing]].
+- [[L174]] (954 engagements). Brief: [[a-bet-on-the-future|A bet on the future]].
+- [[L039]] (935 engagements). Brief: [[notes-from-someone-ahead|Notes from someone ahead of you]].
+- [[L073]] (925 engagements). Brief: [[we-do-it-differently|We do it differently]].
+- [[L099]] (837 engagements). Brief: [[open-the-hood|Open the hood on your setup]].
+- [[L233]] (809 engagements). Brief: [[the-real-cause|The real cause of a common complaint]].
+- [[L161]] (780 engagements). Brief: [[what-they-have-in-common|What they have in common]].
+- [[L053]] (760 engagements). Brief: [[a-known-persons-odd-decision|A known person's odd decision]].
+- [[L105]] (737 engagements). Brief: [[stepping-away|Stepping away from what everyone uses]].
+- [[L151]] (704 engagements). Brief: [[this-weeks-news-through-your-lens|This week's news through your lens]].
+- [[L010]] (700 engagements). Brief: [[what-used-to-win|What used to win and doesn't now]].
+- [[L075]] (682 engagements). Brief: [[someone-should-build-this|Someone should build this]].
+- [[L056]] (673 engagements). Brief: [[what-you-got-wrong|What you got wrong for years]].
+- [[L190]] (631 engagements). Brief: [[your-own-model|Your own model of how something works]].
+- [[L198]] (562 engagements). Brief: [[a-change-and-what-to-do|A change, and what to do about it]].
+- [[L104]] (560 engagements). Brief: [[outside-evidence|Outside evidence for what you've been saying]].
+- [[L006]] (550 engagements). Brief: [[what-they-have-in-common|What they have in common]].
+- [[L141]] (544 engagements). Brief: [[this-week-at-work|This week at work]].
+- [[L126]] (538 engagements). Brief: [[a-bet-on-the-future|A bet on the future]].
+- [[L078]] (521 engagements). Brief: [[the-question-you-get-most|The question you get most]].
+- [[L155]] (509 engagements). Brief: [[a-masters-principles|A master's principles, distilled]].
+- [[L249]] (500 engagements). Brief: [[a-masters-principles|A master's principles, distilled]].
+- [[L204]] (474 engagements). Brief: [[one-line-that-changed-your-work|One line that changed your work]].
+- [[L239]] (468 engagements). Brief: [[you-asked-or-measured|You asked or measured]].
+- [[L036]] (466 engagements). Brief: [[lessons-from-your-years|What your years taught you]].
+- [[L132]] (462 engagements). Brief: [[speak-for-your-profession|Speak for your profession]].
+- [[L248]] (459 engagements). Brief: [[fix-a-word|Fix a word your field misuses]].
+- [[L232]] (456 engagements). Brief: [[one-small-fix|One small fix for today]].
+- [[L210]] (441 engagements). Brief: [[someone-worth-knowing|Someone worth knowing]].
+- [[L029]] (439 engagements). Brief: [[the-shortcut-and-its-cost|The shortcut and its cost]].
+- [[L064]] (436 engagements). Brief: [[a-rule-you-keep|A rule you keep]].
+- [[L242]] (416 engagements). Brief: [[you-asked-or-measured|You asked or measured]].
+- [[L087]] (383 engagements). Brief: [[work-you-admire|Work you admire, taken apart]].
+- [[L211]] (361 engagements). Brief: [[a-change-and-what-to-do|A change, and what to do about it]].
+- [[L085]] (358 engagements). Brief: [[one-small-fix|One small fix for today]].
+- [[L160]] (353 engagements). Brief: [[this-week-at-work|This week at work]].
+- [[L125]] (350 engagements). Brief: [[the-real-cause|The real cause of a common complaint]].
+- [[L045]] (348 engagements). Brief: [[notes-from-someone-ahead|Notes from someone ahead of you]].
+- [[L175]] (335 engagements). Brief: [[one-small-fix|One small fix for today]].
+- [[L079]] (322 engagements). Brief: [[what-your-reader-needs-to-hear|What your reader needs to hear]].
+- [[L147]] (320 engagements). Brief: [[one-line-that-changed-your-work|One line that changed your work]].
+- [[L208]] (315 engagements). Brief: [[one-line-that-changed-your-work|One line that changed your work]].
+- [[L223]] (314 engagements). Brief: [[someone-worth-knowing|Someone worth knowing]].
+- [[L038]] (310 engagements). Brief: [[this-weeks-news-through-your-lens|This week's news through your lens]].
+- [[L159]] (286 engagements). Brief: [[a-bet-on-the-future|A bet on the future]].
+- [[L228]] (269 engagements). Brief: [[how-you-got-in-the-room|How you got in the room]].
+- [[L065]] (254 engagements). Brief: [[a-rule-you-keep|A rule you keep]].
+- [[L138]] (249 engagements). Brief: [[a-bet-on-the-future|A bet on the future]].
+- [[L227]] (237 engagements). Brief: [[how-you-got-in-the-room|How you got in the room]].
+- [[L195]] (236 engagements). Brief: [[the-exact-way-you-do-it|The exact way you do one thing]].
+- [[L188]] (232 engagements). Brief: [[how-it-really-is|How it really is]].
+- [[L142]] (206 engagements). Brief: [[lessons-from-your-years|What your years taught you]].
+- [[L251]] (188 engagements). Brief: [[what-used-to-win|What used to win and doesn't now]].
+- [[L236]] (186 engagements). Brief: [[outside-evidence|Outside evidence for what you've been saying]].
+- [[L100]] (184 engagements). Brief: [[a-belief-your-experience-contradicts|A belief your experience contradicts]].
+- [[L031]] (160 engagements). Brief: [[fix-a-word|Fix a word your field misuses]].
+- [[L023]] (159 engagements). Brief: [[the-question-you-get-most|The question you get most]].
+- [[L240]] (158 engagements). Brief: [[the-shortcut-and-its-cost|The shortcut and its cost]].
+- [[L235]] (157 engagements). Brief: [[this-weeks-news-through-your-lens|This week's news through your lens]].
+- [[L225]] (146 engagements). Brief: [[notes-from-someone-ahead|Notes from someone ahead of you]].
+- [[L152]] (145 engagements). Brief: [[a-story-that-carries-a-value|A story that carries a value]].
+- [[L119]] (139 engagements). Brief: [[two-kinds|Two kinds, and how to tell them apart]].
+- [[L229]] (138 engagements). Brief: [[how-you-got-in-the-room|How you got in the room]].
+- [[L202]] (106 engagements). Brief: [[the-real-cause|The real cause of a common complaint]].
+- [[L244]]. Brief: [[a-known-persons-odd-decision|A known person's odd decision]].
+- [[L254]]. Brief: [[a-small-scene|A small scene from outside work]].
+- [[L256]]. Brief: [[how-you-got-in-the-room|How you got in the room]].
+- [[S001]]. Brief: [[the-exact-way-you-do-it|The exact way you do one thing]].
+- [[S003]]. Brief: [[a-decision-that-made-no-sense|A decision that made no sense on paper]].
+- [[S009]]. Brief: [[the-mistake-you-keep-seeing|The mistake you keep seeing]].
+- [[S010]]. Brief: [[the-mistake-you-keep-seeing|The mistake you keep seeing]].
+- [[S013]]. Brief: [[one-idea-in-one-line|One idea in one line]].
+- [[S014]]. Brief: [[fix-a-word|Fix a word your field misuses]].
+- [[S015]]. Brief: [[the-practice-your-field-dropped|The practice your field dropped]].
+- [[S018]]. Brief: [[a-belief-your-experience-contradicts|A belief your experience contradicts]].
+- [[S020]]. Brief: [[a-rule-you-keep|A rule you keep]].
+- [[S025]]. Brief: [[a-belief-your-experience-contradicts|A belief your experience contradicts]].
+- [[S028]]. Brief: [[the-practice-your-field-dropped|The practice your field dropped]].
+- [[S029]]. Brief: [[one-line-that-changed-your-work|One line that changed your work]].
+- [[S030]]. Brief: [[a-known-persons-odd-decision|A known person's odd decision]].
+- [[S032]]. Brief: [[a-small-scene|A small scene from outside work]].
+- [[S033]]. Brief: [[the-mistake-you-keep-seeing|The mistake you keep seeing]].
+- [[S040]]. Brief: [[a-bet-on-the-future|A bet on the future]].
+- [[S041]]. Brief: [[your-worst-stretch|Your worst stretch and what it built]].
+- [[S042]]. Brief: [[the-real-cause|The real cause of a common complaint]].
+- [[S043]]. Brief: [[you-got-what-everyone-wants|You got what everyone wants]].
+- [[S044]]. Brief: [[what-your-reader-needs-to-hear|What your reader needs to hear]].
+- [[S045]]. Brief: [[how-you-got-here|How you got here, year by year]].
+- [[S048]]. Brief: [[the-gripe|The gripe]].
+- [[S049]]. Brief: [[a-known-persons-odd-decision|A known person's odd decision]].
+- [[S051]]. Brief: [[speak-for-your-profession|Speak for your profession]].
+- [[S052]]. Brief: [[this-weeks-news-through-your-lens|This week's news through your lens]].
+- [[S055]]. Brief: [[a-rule-you-keep|A rule you keep]].
+- [[S056]]. Brief: [[fix-a-word|Fix a word your field misuses]].
+- [[S059]]. Brief: [[a-bet-on-the-future|A bet on the future]].
+- [[S062]]. Brief: [[a-story-that-carries-a-value|A story that carries a value]].
+- [[S066]]. Brief: [[lessons-from-your-years|What your years taught you]].
+- [[S067]]. Brief: [[one-line-that-changed-your-work|One line that changed your work]].
+- [[S068]]. Brief: [[a-story-that-carries-a-value|A story that carries a value]].
+- [[S069]]. Brief: [[one-line-that-changed-your-work|One line that changed your work]].
+- [[S070]]. Brief: [[a-story-that-carries-a-value|A story that carries a value]].
+- [[S072]]. Brief: [[what-you-got-wrong|What you got wrong for years]].
+- [[S073]]. Brief: [[a-decision-that-made-no-sense|A decision that made no sense on paper]].
+- [[S074]]. Brief: [[what-your-reader-needs-to-hear|What your reader needs to hear]].
+- [[S077]]. Brief: [[an-old-document-that-still-holds|An old document that still holds]].
+- [[S079]]. Brief: [[fix-a-word|Fix a word your field misuses]].
+- [[S080]]. Brief: [[fix-a-word|Fix a word your field misuses]].
+- [[S083]]. Brief: [[a-belief-your-experience-contradicts|A belief your experience contradicts]].
+- [[S084]]. Brief: [[what-they-have-in-common|What they have in common]].
+- [[S086]]. Brief: [[a-belief-your-experience-contradicts|A belief your experience contradicts]].
+- [[S089]]. Brief: [[the-gripe|The gripe]].
+- [[S096]]. Brief: [[a-masters-principles|A master's principles, distilled]].
+- [[S099]]. Brief: [[someone-worth-knowing|Someone worth knowing]].

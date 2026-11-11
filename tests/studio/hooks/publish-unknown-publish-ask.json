@@ -1,0 +1,1 @@
+{"hook": "guard-publish", "expect": "ask", "tool_name": "mcp__SomeNewTool__publish_post", "tool_input": {}}

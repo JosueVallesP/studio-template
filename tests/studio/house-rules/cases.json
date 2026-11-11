@@ -1,0 +1,257 @@
+[
+  {
+    "id": "em-dash",
+    "expect": "fail",
+    "rule": "H16",
+    "text": "I read the call twice — and found two ideas."
+  },
+  {
+    "id": "not-x-y",
+    "expect": "fail",
+    "rule": "H17",
+    "text": "It looked like a slow month. Not a crisis. A warning."
+  },
+  {
+    "id": "reveal",
+    "expect": "fail",
+    "rule": "H18",
+    "text": "Most of my clients start the same way. Here's the thing. They never ask."
+  },
+  {
+    "id": "quietly",
+    "expect": "fail",
+    "rule": "H19",
+    "text": "The studio quietly saves every rewrite you make."
+  },
+  {
+    "id": "expert",
+    "expect": "fail",
+    "rule": "H20",
+    "text": "You're an expert in your field, so act like it."
+  },
+  {
+    "id": "placeholder-bracket",
+    "expect": "fail",
+    "rule": "H25",
+    "text": "A good example is [YOUR EXAMPLE], which shows the point."
+  },
+  {
+    "id": "placeholder-blank",
+    "expect": "fail",
+    "rule": "H25",
+    "text": "The goal of this interview is to ____ so we can start."
+  },
+  {
+    "id": "most-founders",
+    "expect": "flag",
+    "rule": "H6",
+    "text": "Most founders never see this coming until it's too late for them."
+  },
+  {
+    "id": "game-changer",
+    "expect": "flag",
+    "rule": "H21",
+    "text": "I think this one habit was a game-changer for my writing."
+  },
+  {
+    "id": "filler-praise-reply",
+    "expect": "fail",
+    "rule": "S6",
+    "reply": true,
+    "text": "Great question. The short answer is yes, and here's how it works."
+  },
+  {
+    "id": "narration-reply",
+    "expect": "fail",
+    "rule": "S5",
+    "reply": true,
+    "text": "Let me read your files first and then I'll tell you what I see."
+  },
+  {
+    "id": "josue-round1-B",
+    "expect": "pass",
+    "text": "IMO, taking a piece of content from good to great is not that mysterious. Here's how I break it down:\nIf it's relevant to you, fits what you're building toward, people can understand it without having to guess what you're saying, and helps people see or do something different, by all means, that's a great piece. All the other stuff…the art, the visuals, the analogies, the examples…that's just the cherry on top.\nI'd also be careful with overpolishing your work. When it comes to social media, it all boils down to testing, testing, testing and (you guessed) testing. You'll never know what great is until people respond to it. That's just how it is."
+  },
+  {
+    "id": "craft-human-after",
+    "expect": "pass",
+    "text": "People often ask me why my content sounds way more human even when it's evident, given my line of work, that I use AI. My answer boils down to this:\nAI can only repeat what you actually believe. If you've never spent some time writing it down, it'll just repeat whatever it finds on the internet.\nSo people spend way too much time tweaking the tone or the voice guide or the prompt, but their content still reads kinda off.\nHere's why:\nAll those things are superficial. You can write a prompt in five minutes, but every one of those things will change how a thing sounds, not necessarily what it says."
+  },
+  {
+    "id": "quoted-dash-is-theirs",
+    "expect": "pass",
+    "text": "In the call she said \"it works — mostly\", and I kept her words in the record."
+  },
+  {
+    "id": "blockquote-is-theirs",
+    "expect": "pass",
+    "text": "Here's the line from your journal:\n> Give me a blank page and I'll freeze — every single time.\nWant me to keep it as an idea?"
+  },
+  {
+    "id": "markdown-link",
+    "expect": "pass",
+    "text": "You can [add a client](https://example.com) from the dashboard whenever you like."
+  },
+  {
+    "id": "signpost-with-answer",
+    "expect": "pass",
+    "text": "Here's why: the P&L looks back, and a pipeline looks forward."
+  },
+  {
+    "id": "not-with-verb",
+    "expect": "pass",
+    "text": "Not because it was late. The client had moved on to a new vendor by then."
+  },
+  {
+    "id": "stance-words",
+    "expect": "pass",
+    "text": "I actually think way too many people skip this step, and I kinda get why."
+  },
+  {
+    "id": "genuinely-is-decoration",
+    "expect": "flag",
+    "rule": "H19",
+    "text": "This is a genuinely useful habit for anyone who writes."
+  },
+  {
+    "id": "genuinely-when-theirs",
+    "expect": "pass",
+    "allow": [
+      "genuinely"
+    ],
+    "text": "This is a genuinely useful habit for anyone who writes."
+  },
+  {
+    "id": "h17-swap-two-sentences",
+    "text": "This isn't a tactic. This is a philosophy.",
+    "expect": "fail",
+    "rule": "H17"
+  },
+  {
+    "id": "h17-swap-comma",
+    "text": "The real problem isn't money, it's attention.",
+    "expect": "fail",
+    "rule": "H17"
+  },
+  {
+    "id": "h17-not-just-comma",
+    "text": "It's not just a tool, it's a system.",
+    "expect": "fail",
+    "rule": "H17"
+  },
+  {
+    "id": "h17-not-about-across-stop",
+    "text": "It isn't about money. It's about attention.",
+    "expect": "fail",
+    "rule": "H17"
+  },
+  {
+    "id": "h17-not-but",
+    "text": "Not a tactic, but a habit.",
+    "expect": "fail",
+    "rule": "H17"
+  },
+  {
+    "id": "h17-real-contrast-passes",
+    "text": "It isn't cheap. I paid for it anyway.",
+    "expect": "pass"
+  },
+  {
+    "id": "h17-not-yet-but-passes",
+    "text": "It's not done yet, but we're close.",
+    "expect": "pass"
+  },
+  {
+    "id": "staged-sincerity",
+    "text": "Let me be honest: we lost the client.",
+    "expect": "flag",
+    "rule": "H22 staged"
+  },
+  {
+    "id": "negation-list",
+    "text": "No setup call, no templates, no waiting.",
+    "expect": "flag",
+    "rule": "H29 negation"
+  },
+  {
+    "id": "no-no-just",
+    "text": "No meetings. No decks. Just the work.",
+    "expect": "flag",
+    "rule": "H29 staged"
+  },
+  {
+    "id": "colon-reveal",
+    "text": "The result: clients stayed.",
+    "expect": "flag",
+    "rule": "H18 colon"
+  },
+  {
+    "id": "weasel-source",
+    "text": "Studies show most posts fail.",
+    "expect": "flag",
+    "rule": "H22 weasel"
+  },
+  {
+    "id": "hedge-stack",
+    "text": "We could potentially lose it.",
+    "expect": "flag",
+    "rule": "H22 hedge"
+  },
+  {
+    "id": "opening-ing",
+    "text": "Leveraging our data, we grew.",
+    "expect": "flag",
+    "rule": "H23 opening"
+  },
+  {
+    "id": "latinate-inflected",
+    "text": "We are utilizing the data.",
+    "expect": "flag",
+    "rule": "H2"
+  },
+  {
+    "id": "linkedin-closer",
+    "text": "That was the week. Thoughts?",
+    "expect": "flag",
+    "rule": "H22/H23"
+  },
+  {
+    "id": "plain-story-passes",
+    "text": "I asked what happened at work this week, and the answer was a story.",
+    "expect": "pass"
+  },
+  {
+    "id": "h17-rule-excepted-flags",
+    "expect": "flag",
+    "rule": "H17",
+    "strict": true,
+    "allow": [
+      "rule:h17"
+    ],
+    "text": "Clients ask me about pricing all the time. It's not about the price, it's about the fear of choosing wrong."
+  },
+  {
+    "id": "h17-without-exception-fails",
+    "expect": "fail",
+    "rule": "H17",
+    "text": "Clients ask me about pricing all the time. It's not about the price, it's about the fear of choosing wrong."
+  },
+  {
+    "id": "h17-rule-exception-keeps-h16",
+    "expect": "fail",
+    "rule": "H16",
+    "allow": [
+      "rule:h17"
+    ],
+    "text": "It's not about the price, it's about the fear. The week was hard — and good."
+  },
+  {
+    "id": "phrase-exception-still-works",
+    "expect": "pass",
+    "strict": true,
+    "allow": [
+      "game-changer"
+    ],
+    "text": "I think that call was a game-changer for the business."
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "person": "Ines Okafor",
+  "built": "2026-10-26",
+  "updated": "2026-10-26",
+  "studio_version": "0.77.0",
+  "left_out": "I read your client calls for what you said about your work and left out what clients said about their own businesses.",
+  "sources": [
+    { "id": "post-01", "title": "Your price is a promise about the client you'll take", "files": ["material/posts.md"], "kind": "post", "date": "2022-03", "privacy": "public" },
+    { "id": "post-02", "title": "I lost my biggest client the week I raised my rates", "files": ["material/posts.md"], "kind": "post", "date": "2023-06", "privacy": "public" },
+    { "id": "essay-01", "title": "Discounts teach clients what you think you're worth", "files": ["material/essays.md", "material/posts.md"], "kind": "essay", "date": "2024-01", "privacy": "public" },
+    { "id": "essay-02", "title": "Why I stopped writing proposals", "files": ["material/essays.md"], "kind": "essay", "date": "2025-02", "privacy": "public" },
+    { "id": "call-01", "title": "Call with a client, a design studio owner", "files": ["inbox/2025-05-12-call-studio.md"], "kind": "call", "date": "2025-05-12", "privacy": "private" },
+    { "id": "call-02", "title": "Call with a client, a fractional CFO", "files": ["inbox/2025-08-03-call-cfo.md"], "kind": "call", "date": "2025-08-03", "privacy": "private" }
+  ],
+  "nodes": [
+    { "id": "c1", "type": "claim", "text": "The price you set decides which clients you get, more than your marketing does.", "said": "outright", "layer": "pov", "spine": true, "status": "seen",
+      "versions": [
+        { "quote": "Your price is a promise about the client you'll take.", "source": "post-01" },
+        { "quote": "Discounts teach clients what you think you're worth.", "source": "essay-01" },
+        { "quote": "Every time I've dropped my price, I got a worse client, not more of them.", "source": "call-01" }
+      ] },
+    { "id": "c2", "type": "claim", "text": "A proposal is the moment you stop being the advisor and start being a vendor.", "said": "outright", "layer": "pov", "spine": true, "status": "confirmed", "canon": "P2",
+      "versions": [
+        { "quote": "The proposal is where you hand over the steering wheel.", "source": "essay-02" },
+        { "quote": "Stop sending proposals. Send a diagnosis.", "source": "call-02" }
+      ] },
+    { "id": "c3", "type": "claim", "text": "Losing a client after a price rise is information, not a failure.", "said": "outright", "layer": "pov", "status": "seen",
+      "versions": [ { "quote": "Losing them was the best pricing data I ever got.", "source": "post-02" } ] },
+    { "id": "c4", "type": "claim", "text": "The diagnosis is the product, and the work is how the client pays for it.", "said": "outright", "layer": "method", "status": "seen",
+      "versions": [
+        { "quote": "Honestly the diagnosis is the product. The work is just how they pay for it.", "source": "call-01" },
+        { "quote": "I'd charge for the diagnosis alone if I had the nerve.", "source": "call-02" }
+      ] },
+    { "id": "c5", "type": "claim", "text": "Clients trust you more when you say who you won't work with.", "said": "implied", "layer": "pov", "status": "seen",
+      "versions": [ { "line": "Every post opens by naming a client she turned away.", "source": "post-01" }, { "line": "The proposal essay starts with the client she sent elsewhere.", "source": "essay-02" } ] },
+    { "id": "s1", "type": "story", "text": "Losing her biggest client the week she raised her rates", "teaching": false,
+      "versions": [ { "quote": "I lost my biggest client the week I raised my rates.", "source": "post-02" } ] },
+    { "id": "t1", "type": "term", "text": "The pricing ladder", "credit": "",
+      "versions": [ { "quote": "Climb the pricing ladder one rung a quarter.", "source": "essay-01" } ] },
+    { "id": "r1", "type": "root", "text": "What happened the first time you charged what you thought the work was worth?" },
+    { "id": "r2", "type": "root", "text": "When did you first feel like a vendor in front of a client, and what did you do next?" }
+  ],
+  "links": [
+    { "from": "s1", "to": "c3", "kind": "carries", "evidence": ["post-02"] },
+    { "from": "c3", "to": "c1", "kind": "supports", "evidence": ["post-02", "essay-01"] },
+    { "from": "c4", "to": "c2", "kind": "supports", "evidence": ["call-01", "call-02"] },
+    { "from": "c1", "to": "t1", "kind": "uses", "evidence": ["essay-01"] },
+    { "from": "c5", "to": "c1", "kind": "supports", "evidence": ["post-01"] },
+    { "from": "c1", "to": "c2", "kind": "tension", "evidence": ["essay-01", "essay-02"], "note": "price sets the client, but the proposal is where she loses control of it" },
+    { "from": "c1", "to": "r1", "kind": "grows_from", "evidence": [] },
+    { "from": "c2", "to": "r2", "kind": "grows_from", "evidence": [] }
+  ],
+  "findings": [
+    { "id": "f1", "kind": 12, "title": "You tell clients the diagnosis is your product, and you've never written it down",
+      "what": "On two calls you say the diagnosis is what clients really pay for. No post or essay says it. It would also explain why you stopped writing proposals.",
+      "evidence": [ { "quote": "Honestly the diagnosis is the product. The work is just how they pay for it.", "source": "call-01" }, { "quote": "I'd charge for the diagnosis alone if I had the nerve.", "source": "call-02" } ],
+      "nodes": ["c4", "c2"], "action": { "type": "confirm", "text": "Is this something you'd say in public? If yes, it's the next essay after the one on proposals." },
+      "rank": 1, "review": true, "status": "open", "answer": "", "new": false },
+    { "id": "f2", "kind": 6, "title": "Your pricing posts and your proposal essay make one argument you haven't written",
+      "what": "You argue the price picks the client, and separately that the proposal hands away control. Together they say the price is set before the proposal, in the first conversation.",
+      "evidence": [ { "quote": "Your price is a promise about the client you'll take.", "source": "post-01" }, { "quote": "The proposal is where you hand over the steering wheel.", "source": "essay-02" } ],
+      "nodes": ["c1", "c2"], "action": { "type": "post", "text": "A post on why your price is decided in the first call, not in the proposal" },
+      "rank": 2, "review": true, "status": "open", "answer": "", "new": false },
+    { "id": "f3", "kind": 8, "title": "You often say clients trust you more when you turn work away, and no piece shows why",
+      "what": "Two pieces open by naming a client you turned away. Neither says what that did to the clients who stayed.",
+      "evidence": [ { "quote": "Your price is a promise about the client you'll take.", "source": "post-01" }, { "quote": "The proposal is where you hand over the steering wheel.", "source": "essay-02" } ],
+      "nodes": ["c5"], "action": { "type": "question", "text": "What did a client who stayed say after you turned someone away?" },
+      "rank": 3, "review": true, "status": "open", "answer": "", "new": false },
+    { "id": "f4", "kind": 9, "title": "The pricing ladder shows up once and never again",
+      "what": "You named a way to raise prices a rung a quarter in one essay and never came back to it.",
+      "evidence": [ { "quote": "Climb the pricing ladder one rung a quarter.", "source": "essay-01" } ],
+      "nodes": ["t1"], "action": { "type": "post", "text": "The pricing ladder, rung by rung, with the client you lost on the way" },
+      "rank": 4, "review": false, "status": "open", "answer": "", "new": false }
+  ]
+}

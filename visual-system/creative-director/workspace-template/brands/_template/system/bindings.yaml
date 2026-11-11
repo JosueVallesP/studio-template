@@ -1,0 +1,31 @@
+# Where this brand lives in each tool. cd-system writes this file; every skill reads it
+# instead of searching. Leave a key empty when the brand has nothing in that tool yet.
+
+source_of_truth: repo        # repo | figma. Use figma only if the client edits there.
+
+design_system:
+  url: ""                    # Claude Design System artifact for this brand
+  synced: ""                 # YYYY-MM-DD
+
+figma:
+  file_key: ""
+  variables_collection: ""
+  library_published: false   # true once a person has published it to a shared library
+  synced: ""
+
+recraft:
+  style_id: ""               # trained from canon/ images
+  trained_from: []           # canon file names used
+  workspace: personal        # personal | <workspace name>
+
+flora:
+  project_id: ""
+  lora_id: ""
+  techniques: []             # saved pipelines, by name
+
+paper:
+  file: ""                   # only reachable when your computer is linked
+  tokens_synced: ""
+
+code_diagrams:
+  d2_theme: ""               # path to the generated D2 theme file, if any

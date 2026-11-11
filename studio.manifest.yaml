@@ -1,0 +1,176 @@
+# Which paths belong to the studio and which belong to the person.
+# An update replaces every studio-owned path and never touches a person-owned one.
+
+version: 0.92.1
+
+# The AI detector (Pangram, scripts/check-human.py --detector). `parked`: no call is made anywhere and every
+# reading says "parked". Set to `on` to call it again at the two points CLAUDE.md names.
+detector: parked
+
+# The studio's master dashboard app in Base44; setup-dashboard copies it for each person.
+dashboard_master: 6ada41a371d747486635d80a
+# The Notion master template (fallback and mirror); the person duplicates it and setup-notion connects the copy.
+notion_master: 401aa945211781c2a8edf13ab6ce33df
+# The link a person opens to duplicate it (published to the web, duplicate as template on).
+notion_template_link: https://mesquite-ferret-8c4.notion.site/Content-Studio-master-template-401aa945211781c2a8edf13ab6ce33df
+# The Figma template library master; setup-figma connects a person's duplicate of it.
+figma_master: 6uKX7eKR9WLrfsbAKsM7ZL
+# The link a person opens to duplicate it (shared as "Anyone with the link can view").
+figma_template_link: https://www.figma.com/design/6uKX7eKR9WLrfsbAKsM7ZL
+
+studio_owned:
+  - CLAUDE.md
+  - CHANGELOG.md
+  - studio.manifest.yaml
+  - studio-source.md
+  - .gitignore
+  # Inside .claude/, only the studio's own files are listed, so a person's own agents, commands
+  # and local settings in .claude/ survive an update.
+  - .claude/settings.json
+  - .claude/hooks/
+  - .claude/agents/capture.md
+  - .claude/agents/judge.md
+  - .claude/agents/librarian.md
+  - .claude/agents/writer.md
+  - .claude/skills/about/
+  - .claude/skills/capture/
+  - .claude/skills/check/
+  - .claude/skills/coach/
+  - .claude/skills/correct/
+  - .claude/skills/develop/
+  - .claude/skills/end/
+  - .claude/skills/essay/
+  - .claude/skills/identity/
+  - .claude/skills/interview/
+  - .claude/skills/learn/
+  - .claude/skills/libraries/
+  - .claude/skills/map/
+  - .claude/skills/sources/
+  - .claude/skills/schedules/
+  - .claude/skills/librarian/
+  - .claude/skills/post/
+  - .claude/skills/recall/
+  - .claude/skills/recipes/
+  - .claude/skills/review/
+  - .claude/skills/harvest/
+  - .claude/skills/scout/
+  - .claude/skills/shape/
+  - .claude/skills/journal/
+  - .claude/skills/refine/
+  - .claude/skills/manifesto/
+  - .claude/skills/understand/
+  - .claude/skills/adapt/
+  - .claude/skills/tidy/
+  - .claude/skills/teardown/
+  - .claude/skills/start/
+  - .claude/skills/status/
+  - .claude/skills/strategy/
+  - .claude/skills/think/
+  - .claude/skills/update/
+  - .claude/skills/visual/
+  - .claude/skills/visual-system/
+  - .claude/skills/voiceprint/
+  - .claude/skills/articulation-ladder/
+  - .claude/skills/building-your-message/
+  - .claude/skills/copylosophy/
+  - .claude/skills/finding-your-personal-monopoly/
+  - .claude/skills/genius-of-contradiction/
+  - .claude/skills/three-tenses/
+  - .claude/skills/visual-philosophy/
+  - .claude/skills/owned-story/
+  - .claude/skills/borrowed-story/
+  - .claude/skills/arbitraged-content/
+  - .claude/skills/newsjacking/
+  - .claude/skills/op-ed/
+  - .claude/skills/power-listicle/
+  - .claude/skills/simple-listicle/
+  - .claude/skills/proof-post/
+  - .claude/skills/shorties/
+  - .claude/skills/super-specific-how/
+  - .claude/skills/offer-designer/
+  - .claude/skills/pricing-tests/
+  - .claude/skills/diagnosis-call/
+  - .claude/skills/pamphlet-power/
+  - .claude/skills/turning-prospects-into-collaborators/
+  - skills/
+  # The visual method: creative director, art direction and design, reached through /visual-system.
+  - visual-system/
+  - scripts/
+  - templates/
+  - tests/README.md
+  # tests/studio/ is listed folder by folder so the read-back on the author's own material
+  # (tests/studio/readback-josue/) stays in the studio repo and never ships.
+  - tests/studio/argument-chain-chess/
+  - tests/studio/canon-status/
+  - tests/studio/claims/
+  - tests/studio/inbox-summary/
+  - tests/studio/receipts/
+  - tests/studio/save-stuck/
+  - tests/studio/secrets/
+  - tests/studio/capture-mara/
+  - tests/studio/drafts/
+  - tests/studio/hooks/
+  - tests/studio/house-rules/
+  - tests/studio/intake-claude-marco/
+  - tests/studio/intake-form-lena/
+  - tests/studio/librarian-mara/
+  - tests/studio/map/
+  - tests/studio/packet/
+  - tests/studio/quickstart-dana/
+  - tests/studio/rewrites/
+  - tests/studio/stitch/
+  - tests/studio/strategist-mara/
+  - tests/studio/strategy-brand-mara/
+  - tests/studio/sync-config/
+  - tests/studio/voice-diff/
+  - tests/studio/voiceprint/
+  - tests/studio/welcome-tomas/
+  - tests/studio/writer-editor-mara/
+  # tests/prose/ stays in the studio repo: its corpus is the author's own writing. test-prose.sh says
+  # "no test set here" in an instance, and test-all.sh skips it.
+  # docs/ is listed file by file: docs/briefs/ (planning notes) and docs/history/ (the pre-build design)
+  # stay in the studio repo and never ship.
+  - docs/automation.md
+  - docs/dashboard-app.md
+  - docs/getting-started.md
+  - docs/handing-things-over.md
+  - docs/hooks.md
+  - docs/house-rules-research.md
+  - docs/install-in-claude.md
+  - docs/intake-questions.md
+  - docs/notion-template.md
+  - docs/operating-guide.md
+  - docs/quick-start.md
+  - docs/spec.md
+  - docs/state.md
+  - docs/strategy-method.md
+  - docs/tally-form.md
+  - docs/welcome.md
+
+client_owned:
+  # The person's README: --init writes it once from docs/getting-started.md; an update never replaces it.
+  - README.md
+  - canon/
+  # The working banks: ideas, questions, the evidence ledger and rewrites/. The canon holds confirmed entries only.
+  - bank/
+  - material/
+  - pieces/
+  - inbox/
+  - journal/
+  - config/
+  - proposals.md
+  - YOUR-STUDIO.md
+  - tests/client/
+  # Run notes are written by the instance's own runs, so they belong to the person; an update adds the file once and never replaces it.
+  - studio-notes.md
+  # The session log: the stop hook writes which files changed; /end writes what was decided.
+  - sessions/
+  # The person's saved routines (skills/job-recipes). Each recipe's shortcut sits in .claude/skills/<name>/,
+  # which survives an update because the studio's own commands are listed above one by one.
+  - recipes/
+  # The person's visual workspace, made by /visual-system: their brief, directions, system and package.
+  - visual/
+  # Copies of studio files the person changed, kept by an update before it replaced them.
+  - studio-local-backup/
+  # Checksums of the studio files as last installed; the update writes it and reads it to spot local changes.
+  - .studio-installed

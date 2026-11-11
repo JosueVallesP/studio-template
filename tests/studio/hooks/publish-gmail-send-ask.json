@@ -1,0 +1,1 @@
+{"hook": "guard-publish", "expect": "ask", "tool_name": "mcp__Gmail__send_message", "tool_input": {}}

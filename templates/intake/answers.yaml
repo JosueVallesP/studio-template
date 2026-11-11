@@ -1,0 +1,41 @@
+# Intake answers. Produced by the form (docs/intake-questions.md) or by skills/setup-intake.
+# scripts/build-instance.py reads this file. A blank value stays blank in the instance.
+# Lists are one item per "- " line. Free text can run over several lines if indented.
+
+name: ""
+email: ""
+github: ""              # skipped when the intake runs inside the studio
+what_you_do: ""
+business: ""
+location: ""
+language: ""
+
+goal: ""
+measured_by: ""
+
+publishes_on: []        # e.g. - LinkedIn
+                        #      - Substack (https://...)
+wants_to_start: []
+hours_per_week: ""
+team: []                # e.g. - Ana, assistant: schedules posts
+
+material: []            # e.g. - LinkedIn posts, export in inbox/linkedin-posts.csv
+recordings: []          # e.g. - 6 sales calls, transcripts in inbox/calls/
+
+notion: ""              # yes / no
+notion_workspace: ""
+figma: ""               # yes / no
+figma_email: ""
+
+logo: ""                # file name in inbox/, or blank
+colors: []              # e.g. - "#1B1B1B primary"
+fonts: []
+references_liked: []    # e.g. - "Stripe's docs: the restraint"
+references_disliked: []
+never_look: ""
+
+notes: ""
+
+# Filled by the build, not the form:
+intake_date: ""
+built_by: ""            # form / setup-intake

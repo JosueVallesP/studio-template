@@ -1,0 +1,1 @@
+{"hook": "guard-bash", "expect": "deny", "agent_type": "writer", "agent_id": "a1", "tool_name": "Bash", "tool_input": {"command": "python3 scripts/check-human.py pieces/x/draft-v1.md --detector"}}

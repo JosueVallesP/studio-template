@@ -1,0 +1,43 @@
+name: "Lena Okafor"
+what_you_do: "I run finance for seed-stage startups, three at a time, as a fractional CFO. Founders hire me when their first real board meeting is coming and they can't explain their own numbers."
+business: "Okafor Finance"
+location: "Lisbon"
+language: "English"
+
+goal: "Two or three new fractional clients a year coming to me, instead of me chasing them through referrals."
+measured_by: "Inbound conversations from founders I haven't met"
+
+publishes_on:
+  - LinkedIn
+wants_to_start:
+  - A newsletter
+hours_per_week: "4"
+team:
+  - "Rui, assistant: schedules posts and books calls"
+
+material:
+  - "LinkedIn posts, about 60, export in inbox/linkedin-posts.csv"
+  - "A board-prep checklist I send clients"
+recordings:
+  - "Four client onboarding calls, recorded, not transcribed yet"
+
+notion: "yes"
+notion_workspace: "Okafor Finance"
+figma: "no"
+figma_email: ""
+
+logo: ""
+colors:
+  - "#0B3D2E dark green"
+fonts: []
+references_liked:
+  - "Stripe's annual letter: calm, long sentences, no shouting"
+  - "The Economist charts: one point per chart"
+references_disliked:
+  - "Finance bros with yachts: everything about it"
+never_look: "corporate"
+
+notes: "I'll never name a client. Never use the word 'unlock'."
+
+intake_date: ""
+built_by: ""

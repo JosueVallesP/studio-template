@@ -1,0 +1,1 @@
+{"hook": "guard-bash", "expect": "ask", "tool_name": "Bash", "tool_input": {"command": "cd pieces && rm -r 2026-10-01-old"}}

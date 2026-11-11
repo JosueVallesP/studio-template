@@ -1,0 +1,48 @@
+# Reading a body of work, and the drafts it leaves
+
+The reading rules the map follows on every file, and the draft entries it writes for the interviews. These came from the read-back's first real run on a mixed body of work (posts, essays, a workshop, a long journal) and carry over whole.
+
+## Which files, and what each one is
+
+- **The material:** `material/` (what they've made and keep) and `inbox/` (what they handed over, including intake-form uploads and pulls from connected sources). Text only. A file in both places is read once.
+- **Not them:** someone else's work, a book they read, another person's talk pulled to learn from (its top note says `not the person's`), the highlighted passages in reading notes. Skip these. In reading notes, only the "My notes" section is theirs. When a file mixes their lines and someone else's, keep only theirs.
+- **A summary is not their words.** A file whose first line starts `<!-- studio: looks like a summary, not their words` (`scripts/inbox-to-text.py` adds it), or that reads like one (a recorder's "Summary", "Action items", "Key takeaways"; the person reported as "she explained"): a tool wrote it about them. Nothing in it becomes a `quote`, a `raw` field or a `verbatim` line, and no claim rests on it alone. It can point to where to look in the real recording or transcript, and a claim in it counts only as a lead: mark it `implied` and say the words aren't theirs yet.
+- **Written for them, not by them.** A file whose first line is `<!-- studio: written for them, not by them -->` (the intake asks which posts an agency, a ghostwriter or a team member wrote) went out under their name, so the map still reads it for claims the person approved. It is never read for their voice: no quote from it counts as their words, and the voice rules and voiceprint skip it.
+- **Never read:** `journal/`. Entries there are private by default and no skill reads them (`CLAUDE.md`, "Where things are").
+- **Public or private.** Every file gets one of two marks before reading, written into the map's source list:
+  - `public`: published or said to an audience (posts, essays, newsletters, a talk, a podcast, a book, a course, a workshop they ran).
+  - `private`: said to a few people or to themselves (client calls, sales calls, internal memos, notes, voice memos, drafts never published, messages).
+  When a file doesn't say, read its top note and the text; a call transcript is private unless it was a published podcast. If you still can't tell, mark it `private`: that's the safe side.
+- **Personal matters stay out, wherever they sit.** Prayers, dreams, confessions, health, family, and money owed or earned per client, by name or not, don't go on the map or into the drafts unless the same fact already appears in a public piece. Faith or another stated life purpose can appear once, as a root question, in their own non-private lines. Say at the top of the page, in one line, what was read and what was left out.
+
+## Rules for reading
+
+- **Read every file end to end before writing anything.** Note, per file: what it is, how long, roughly when, public or private, their voice or quotes. Don't skim the long one and guess. A reader that stops partway through a file (it ran out of room, or the file was cut off or couldn't be read to the end) says which files it didn't finish and where it stopped, and the map's source list marks them `read in part`.
+- **A journal-like file mixes four kinds of text.** The person's own entries; quotes from books; long answers from an AI they pasted in, often with no marker; and versions of their own thinking that an AI rewrote. Only the first kind is their voice. Sort by tells (an AI answer says "Earlier we said", "in your own vocabulary", carries footnote numbers or em dashes the person never uses) and by what they later say they agree with. Where a raw version and a polished version of the same idea both exist, quote the raw one. Never quote the polished version as their words; if the idea only exists polished, the claim is `implied` and the page says the words aren't theirs yet.
+- **A call has two sides.** In a transcript, only the person's lines are theirs. A line with no speaker label, or `speaker unclear`, is never quoted as theirs (`skills/setup-sources`, "Pulling"). What the client says is a reader speaking: useful for `/understand`, never a claim of the person's.
+- **Pieces without titles or dates.** Number posts and essays in file order (post-01, essay-01) with their first words, cite a workshop or talk by section heading and a call by its date and the other side's role ("call, 12 Mar, a client"), and list every code at the top of the page before the first one is used.
+- **Export artifacts.** Files exported from Google Docs or Notion carry backslashes before `$`, `*`, `.` and `#`, and stray blockquote markers. Strip those from quotes and say so once. Nothing else changes.
+- **A quote may join two short paragraphs** with a space when the person broke one thought across lines. A typo in a line you need gets "[sic]", not a cut.
+- **A post and its long essay version are one piece.** Link them as one source with two files. Every count on the map counts separate pieces, never files, so the same text in two places is never two pieces of evidence.
+- **Corpus checks for "things you never do".** Count, don't guess: em dashes, hashtags, hype words, "expert", rhetorical questions, and whatever the intake asked to avoid. A count can turn up a conflict with intake (the person says "avoid X" and uses it thirty times); that's a tension finding.
+- **Borrowed ideas.** A named framework the person credits to someone else (an author, a client, a peer) goes on the map as a `term` with `credit:` filled in, and links to the claims they use it for. The writer never presents it as theirs.
+- **A teaching example is not a fact about them.** A case from a workshop, a figure they gave to illustrate a point, or someone else's situation in their material is how they teach (`CLAUDE.md` rule 1). It can be a `story` node with `teaching: yes`; it never becomes a claim about what they did or refuse.
+
+## The drafts it leaves for the interviews
+
+The map writes draft entries so the first interview confirms instead of asking from zero. This is the route in `skills/setup-brand-tree/SKILL.md`, "Where a picked-up belief goes": every candidate is a `draft` entry, never a proposal, and nothing is confirmed until the person says so.
+
+**Which nodes become drafts.** A claim that clears the threshold (stated in two separate pieces, or once as a rule with a reason) becomes a draft POV. A story told more than once, or once with a date and people in it, becomes a draft story. A named or numbered method becomes a draft branch. A claim below the threshold stays on the map only; it doesn't become a draft, though it can still be a finding (a dropped idea).
+
+**How each draft is written.** In the right canon file, created from `skills/setup-brand-tree/templates/` if it doesn't exist yet (the brand tree's step 5 lists which; create those, strip the example blocks): `status: draft`, `sources:` naming the file and the piece, the `quote` field word for word, and the map's node ID in the `log` line ("from the map, 26 Oct, node c4") so the map and the canon can find each other. Extraction confidence (strong, medium, weak, as the brand tree's step 4 says) goes in the `log` line; the POV field's own vocabulary (firm, forming, exploring) goes in `confidence:`. A draft from private material carries `privacy: private` on its own line, and the writer asks before using it (the skill's "Private material in pieces").
+
+**Voice rules.** Draft W entries in `canon/voice/voice-guide.md` beside the ten defaults, numbered from the next free W number (W11 on), with the lines as evidence. When the material shows a habit that differs from a default rule (W1 to W10), draft the person's rule and write a proposal of kind `retire <W ID>` for the default one in `proposals.md`, quoting the lines; the person's yes retires it. Where the template wants a `before` line and no rejected draft exists yet, write a counterexample and mark it "the map's counterexample".
+
+**Field rules:**
+
+- **Values** come from costly choices, not from the person saying what they value. One choice that cost them something is enough for a draft at medium confidence; a line of self-description alone is not. If the material shows no costly choice, leave `values.md` empty and say so in `progress.md`. The map's root questions are where values start; they are questions, never drafts.
+- **Thesis catalyst and falsifier.** You may propose a falsifier and a catalyst, each marked as the map's reading, never as theirs. The interview asks for their words.
+- **Second-hand quotes.** When the only words from the person's clients or readers are the person's own report of what people tell them, use them and label each "his report" or "her report". The label is the field.
+- **The inbox files stay where they are.** `/capture` still needs them for the idea bank. Don't move them to `inbox/done/`.
+
+**Then** update `canon/canon-index.md` and `canon/progress.md` (About them; the layer table with how many drafts each layer now holds; the session plan: the next session is the map review, then the interview from whatever entry point the drafts suggest), and in `canon/setup-progress.md` tick the quick win in the format `setup-start` sets (`- [x] The map of your ideas: done <date>`) with one line in the log, so `/start` knows the map ran. Writing `canon/progress.md` doesn't start the brand tree: the other quick wins still come next unless the person goes straight into the review.

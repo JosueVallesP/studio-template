@@ -1,0 +1,46 @@
+# Intake answers. Produced by the form (docs/intake-questions.md) or by skills/setup-intake.
+# scripts/build-instance.py reads this file. A blank value stays blank in the instance.
+# Lists are one item per "- " line. Free text can run over several lines if indented.
+
+name: "Marco Bellini"
+what_you_do: "I make furniture by hand in Bologna, and I teach amateurs how to make it. People come to my workshop for a few days and leave with a piece they built themselves."
+business: ""
+location: "Bologna"
+language: ""
+
+goal: "I want my workshops filled a year out instead of month to month."
+measured_by: "Next year's workshop dates are booked by this time next year."
+
+publishes_on:
+  - YouTube (about 3,000 subscribers)
+  - Instagram (I hate it)
+wants_to_start: []
+hours_per_week: "5"
+team: []
+
+material:
+  - 40 YouTube videos; I can export the transcripts and drop them in inbox/
+  - A handwritten notebook of workshop notes; it's on paper, on my bench
+recordings:
+  - The same 40 YouTube videos, that's me talking
+
+notion: "no"
+notion_workspace: ""
+figma: "no"
+figma_email: ""
+
+logo: ""
+colors: []
+fonts: []
+references_liked:
+  - Old tool catalogs
+  - Japanese woodworking books
+references_disliked:
+  - The maker-influencer look
+never_look: ""
+
+notes: ""
+
+# Filled by the build, not the form:
+intake_date: ""
+built_by: "setup-intake"
